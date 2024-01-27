@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pic-Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex bg-cyan-100 items-center justify-center min-h-screen">
+      <!-- Card Container -->
+      <div class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl md:p-40">
+        <div class="font-bold text-5xl text-blue-200 border-b">
+          Words of Pictures
+        </div>
+
+        <!--Menu Container -->
+        <div
+          class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-end"
+        >
+          <!-- Menu Items -->
+          <div class="group">
+            <a href="#">About</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Images</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Icons</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+          <div class="group">
+            <a href="#">Contact</a>
+            <div
+              class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Search Container -->
+        <div
+          class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0"
+        >
+          <!-- Input and SVG Container-->
+          <div class="flex justify-center border-b">
+            <input
+              type="text"
+              class="ml-6 rounded-lg md:w-80 placeholder:font-thin focus:outline-none"
+              placeholder="Search"
+            />
+            <button>
+              <img src="./assate-4/loupe.png" alt="#" class="h-5 w-5 m-2" />
+            </button>
+          </div>
+          <!-- Upload Button -->
+          <button
+            class="py-3 px-14 text-lg font-normal text-white bg-black border border-black rounded-md shadow-2xl duration-200 hover:bg-white hover:text-black"
+          >
+            Upload
+          </button>
+        </div>
+        <!-- Galary container -->
+        <div class="grid gap-4 md:grid-cols-3">
+          <!-- Image 1-->
+          <div class="relative group">
+            <img src="./assate-4/1.webp" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Broken Pencil</p>
+                  <p class="text-xs">Need to be broken for success !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2-->
+          <div class="relative group">
+            <img src="./assate-4/2.jpeg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Team Work</p>
+                  <p class="text-xs">Everything is easy in a team !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3-->
+          <div class="relative group">
+            <img src="./assate-4/3.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Gorgeous World</p>
+                  <p class="text-xs">World is nice, You need to see !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4-->
+          <div class="relative group">
+            <img src="./assate-4/4.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Love & Hate</p>
+                  <p class="text-xs">Use according the situation !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5-->
+          <div class="relative group">
+            <img src="./assate-4/5.jpg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Smart Magnet</p>
+                  <p class="text-xs">Be smart attract Everything !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6-->
+          <div class="relative group">
+            <img src="./assate-4/6.jpeg" alt="" class="w-72 h-40" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-50"
+            >
+              <div class="flex justify-between w-full">
+                <div class="font-normal">
+                  <p class="text-sm">Alone Path</p>
+                  <p class="text-xs">Make your own path !</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
